@@ -1,0 +1,6 @@
+1. How many types of middleware in MongoDb .
+Ans. There are four types of middleware in mongoDB
+	1. Document Middleware 
+	2.Model Middleware
+	3.Aggregate Middleware
+	4.Query Middleware

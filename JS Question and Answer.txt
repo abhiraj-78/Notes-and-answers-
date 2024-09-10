@@ -1,0 +1,51 @@
+1      What is Javascript...?
+Ans :- JS is a client side as well as server side scriptiong language 
+
+2	How Borser Execute Javascript.
+Ans :- using js script tag browser execute js code 
+
+3	What are features of Javascript.
+Ans. (i) High-Level
+	(ii) Dynamic typed
+        (iii)Function oriented
+	(iv)object oriented 	
+	(v)Single threaded	
+	(vi) Programmer Friendly 
+	(vii) It convert HTML into DHTML 
+
+	(i) High-level language: JavaScript is a high-level, interpreted programming language, which means that it is designed to be human-	     readable and does not require compilation before execution.
+	(ii) Dynamic typed : JavaScript is dynamically typed, meaning that variable types are determined at runtime.
+4	What is DOM ?
+Ans : DOM is stand for documenr object model,it represent the herarcical tree structure of html document.by the help of DOM 
+	we can change the style,attribute of document.
+
+5	How to perform click event on Dom Using Javascript
+Ans. firts we get the id of node, after we add addEventListener in that node in event listener first argument is type of event like like " (click " or " mousedown " or any other HTML DOM Event),second argument is a function that we want to perform when an event is occur.
+
+6	What is alert() and confirm() ?
+Ans. alert display a popup box with the specific message with the ok button and confirm() display a popup box with specific message with ok and cancle button
+
+7	What is difference between == and ===.?
+Ans. == return true when  the value are equal and === return true when the type of value and value both are equal .
+
+8	What is function . Can we overload function in javascript.
+Ans. Function is a block of code,it is used to peform a specific task 	and it is executed when somthing called it.
+
+9	What is callback ? Explain with suitable example. 
+Ans. When a function is passed as a argument it is called callback function.
+	Example :- 
+	var x = (callback)=>{
+	callback("Hello JS") ;
+	}
+	x((n)=>{
+	console.log(n);
+	});
+
+10	What is promise? What are advantage of promise over callback. 
+Ans :  In js, promise is an object that will produce a single value some time in the future. If promise is successful ,it produced a resolve value,if somthing went wrong then it will produce a reason why the promise is failed.
+
+ Advantage of promise over callback :- 
+
+
+11.	 What is callback hell.
+Ans. Callback hell is process where 
